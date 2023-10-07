@@ -1,6 +1,6 @@
 # Supply Chain Management System Database
 
-This project aims to model a comprehensive database system for a company, referred to as Company A, that produces various products and distributes them to customers using a supply chain consisting of railways and trucks. The system's primary functions include order management, train scheduling, route planning, and driver/assistant roster management, along with various reporting functionalities.
+This project aims to model a comprehensive database system for a company, referred to as Supply Pro, that produces various products and distributes them to customers using a supply chain consisting of railways and trucks. The system's primary functions include order management, train scheduling, route planning, and driver/assistant roster management, along with various reporting functionalities.
 
 ## Database Design
 
@@ -16,16 +16,6 @@ This project aims to model a comprehensive database system for a company, referr
 9. **Drivers**: Information about truck drivers.
 10. **Driver Assistants**: Details about driver assistants.
 
-### Relationships
-- **Products - Orders**: Many-to-Many relationship between products and orders.
-- **Customers - Orders**: Many-to-Many relationship between customers and orders.
-- **Orders - Train Trips**: Many-to-Many relationship between orders and train trips.
-- **Stores - Cities**: Many-to-Many relationship between stores and cities.
-- **Stores - Routes**: Many-to-Many relationship between stores and routes.
-- **Routes - Cities**: Many-to-Many relationship between routes and cities.
-- **Trucks - Routes**: Many-to-Many relationship between trucks and routes.
-- **Drivers - Trucks**: One-to-Many relationship between drivers and trucks.
-- **Driver Assistants - Trucks**: One-to-Many relationship between driver assistants and trucks.
 
 ### Constraints
 - Roster constraints for drivers and driver assistants.
